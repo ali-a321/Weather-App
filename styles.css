@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body, html {
+    height: 100%;
+  }
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.formContainer{
+    border-bottom: 1px solid white;
+    display: inline-block;
+    position: absolute;
+    top: 18.5rem;
+}
+.mainContainer{
+    position:relative;
+    top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.currentWeather{
+    font-size: 3rem;
+}
+
+input[type="text"],
+input[type="text"]:focus   
+{
+         background: transparent;
+         border: none;
+         outline-width: 0;
+         color: white;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+.left{
+    margin-left: 10%;
+}
+.leftSidePanel{
+    color: whitesmoke;
+}
+.rightSidePanel{
+    color:whitesmoke;
+    margin-right: 8%;
+    padding-top: 0.8rem;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+.weatherimg{
+    width: 7rem;
+    height: 100%;
+
+}
+.humidImage{
+    opacity: 1; 
+    max-width: 2rem;
+    max-height: 2rem;
+ 
+}
+.humid{
+}
+
+.currentTemp{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+}
+.glass{
+    background-image: url(magnifying.png);
+    min-width: 18px;
+    background-repeat: no-repeat;
+    height: 18px;
+    background-size: contain;
+    
+}
+
+.changeFah{
+    cursor: pointer;
+
+}
