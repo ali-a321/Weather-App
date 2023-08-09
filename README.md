@@ -1,2 +1,2 @@
 # Weather-App
-Used API & ASYNC 
+Built with HTML, CSS, and JavaScript. Web application that fetches and displays real-time weather information for a user-specified city using the OpenWeatherMap API. Provides users with current weather details including temperature, weather description, location, wind speed, wind gust, feels-like temperature, and humidity. Users can switch the temperature display from Celsius to Fahrenheit.
